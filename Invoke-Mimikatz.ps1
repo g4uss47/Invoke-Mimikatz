@@ -3,7 +3,7 @@ function Invoke-Mimikatz
 <#
 .SYNOPSIS
 
-This script leverages Mimikatz 2.1.1 and Invoke-ReflectivePEInjection to reflectively load Mimikatz completely in memory. This allows you to do things such as
+This script leverages Mimikatz 2.2.0 and Invoke-ReflectivePEInjection to reflectively load Mimikatz completely in memory. This allows you to do things such as
 dump credentials without ever writing the mimikatz binary to disk. 
 The script has a ComputerName parameter which allows it to be executed against multiple computers.
 
@@ -15,11 +15,11 @@ Mimikatz Author: Benjamin DELPY `gentilkiwi`. Blog: http://blog.gentilkiwi.com. 
 License:  http://creativecommons.org/licenses/by/3.0/fr/
 Required Dependencies: Mimikatz (included)
 Optional Dependencies: None
-Mimikatz version: 2.1.1 20181209 ()
+Mimikatz version: 2.2.0 20200918 ()
 
 .DESCRIPTION
 
-Reflectively loads Mimikatz 2.1.1 in memory using PowerShell. Can be used to dump credentials without writing anything to disk. Can be used for any
+Reflectively loads Mimikatz 2.2.0 in memory using PowerShell. Can be used to dump credentials without writing anything to disk. Can be used for any
 functionality provided with Mimikatz.
 
 .PARAMETER DumpCreds
